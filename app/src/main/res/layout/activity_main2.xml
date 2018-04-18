@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/test1"
+    tools:context="com.holoc284_v001.appweather.Main2Activity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        app:title="Dự báo 7 ngày"
+        android:background="#25c992"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:textSize="25dp"
+        android:id="@+id/textViewCity2"
+        android:text="Tên Thành Phố"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/listViewDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
